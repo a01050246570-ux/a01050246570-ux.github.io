@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Stanford Performing Arts</title>
+    <style>
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .main-title {
+            color: #CC0000;
+            font-size: 3.5em;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .edition-info {
+            color: #CC0000;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+        .content { flex: 2; }
+        .sidebar { flex: 1; border-left: 1px solid #ccc; padding-left: 30px; }
+
+        .hall-image {
+            float: left;      
+            width: 500px;    
+            margin-right: 30px; 
+            margin-bottom: 20px;
+        }
+        
+       
+        .calendar-list { list-style: none; padding: 0; border-top: 1px solid #333; }
+        .calendar-list li { border-bottom: 1px solid #333; padding: 10px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="main-title">Stanford Performing Arts</h1>
+        <div class="edition-info">Autumn 2012<br>Edition</div>
+    </header>
+
+    <div class="container">
+        <main class="content">
+            <h2>Bing Concert Hall</h2>
+            <div class="article">
+                <img src="bing_hall.jpg" alt="Bing Concert Hall" class="hall-image">
+                <p>The Bing Concert Hall at Stanford will play a vital role on campus and in the local community.
+                    The hall's exceptional acoustics and 
+                    state-of-the-art technical
+                    capabilities will showcase the world's finest performers.
+
+
+                </p>
+                <p>The hall is scheduled to open early in 2013.
+                    The concert hall will have 844 seats in an intimate
+                    vineyard-style configuration, with terraced sections wrapping all the way
+                    around the stage.
+                </p>
+            </div>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Calendar</h3>
+            
+            <ul class="calendar-list">
+                <li><em>Harmony for Humanity: Daniel Pearl World Music Concert</em></li>
+                <li><em>Sundays with the St. Lawrence String Quartet</em></li>
+                <li><em>Merce Cunningham Dance Company</em></li>
+                <li><em>Juilliard String Quartet</em></li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>
